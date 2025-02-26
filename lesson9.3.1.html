@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма сброса</title>
+</head>
+<body>
+<form id="myForm">
+  <label for="email">Email:</label>
+  <br>
+  <input type="email" id="email" name="email">
+  <button type="reset">Сбросить</button>
+</form>
+<script>
+  document.getElementById('myForm').addEventListener('reset', function() {
+    //TODO:
+    alert('Форма сброшена');
+  });
+</script>
+</body>
+</html>
